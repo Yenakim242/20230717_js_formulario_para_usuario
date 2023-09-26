@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para usuario</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <form novalidate>
+        <h2>Formulario para Usuario</h2>
+        <label for="inputNombre">Nombre</label>
+        <input type="text" name="inputNombre" id="inputNombre" placeholder="Nombre">
+        <span class="errorMSG"></span>
+        <label for="inputEmail">Correo electrónico</label>
+        <input type="email" name="inputEmail" id="inputEmail" placeholder="aaaa@aaaa.aaa">
+        <span class="errorMSG"></span>
+        <label for="inputClave">Contraseña</label>
+        <input type="password" name="inputClave" id="inputClave" placeholder="Contraseña">
+        <span class="errorMSG"></span>
+        <button onclick="enviar()">Enviar</button>
+        <!-- <span class="errorMSG"></span> -->
+    </form>
+</body>
+</html>
